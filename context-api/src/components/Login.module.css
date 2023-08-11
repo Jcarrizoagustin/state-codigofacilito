@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input {
+    height: 30px;
+    margin-left: 1rem;
+
+    padding: 5px;
+}
+
+.input::placeholder {
+    padding: 5px;
+}
+
+.text {
+    font-size: 2rem;
+}
